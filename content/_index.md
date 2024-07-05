@@ -8,11 +8,6 @@ design:
   spacing: "6rem"
 
 sections:
-  # - block: about.avatar
-  #   id: about
-  #   content:
-  #     username: admin
-  #     text: Hello
   - block: hero
     content:
       title: Thomas W. Price
@@ -42,14 +37,25 @@ sections:
     content:
       items:
         - title: Hi, I'm Thomas
-          text: I work to reimagine the way that people learn to program. What if learning to program meant...
+          text: "I build educational innovations that **reimagine the way that people learn to program**, so they can:"
           feature_icon: chevron-double-right
           features:
-            - Expressing ourselves,
-            - Connecting with our interests, and
-            - Acting on our values?
+            - Express themselves
+            - Connect with their interests
+            - Act on their values
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: cta/thomas.jpg
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+  - block: markdown
+    id: teaching
+    content:
+      title: Curricular Innovations
+      text: I design curricula and tools that make learning programming and AI engaging and authentic.
+  - block: cta-image-paragraph
+    content:
+      items:
         - title: Making Games
           text: My "Bounce!" curriculum covers all the basics of programming by making a popular casual game.
           feature_icon: play
@@ -58,7 +64,7 @@ sections:
             - Students write almost 100% of the code, so they own their work.
             - Final game looks polished and professional, in just 4 lessons.
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: cta/bounce.png
           button:
             text: Check it out
             url: project/bounce/
@@ -69,7 +75,7 @@ sections:
             - Jump straight into exploration and skip the set-up.
             - Learn how planets orbit, or make a physics-based game.
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
+          image: cta/physics.png
           button:
             text: Check it out
             url: project/snap-games
@@ -81,7 +87,7 @@ sections:
             - No numbers or math - just music!
             - Build an intuitive understanding of code before a class.
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
+          image: cta/tracenote.png
           button:
             text: Check it out
             url: project/tracenote
@@ -92,7 +98,7 @@ sections:
             - A real dataset with 500M+ and heavy class imbalance.
             - Students competed on a leaderboard to build the best model.
             - The winners were hired to build a production model.
-          image: coffee.jpg
+          image: cta/econet.png
           button:
             text: Check it out
             url: project/tracenote
@@ -100,8 +106,9 @@ sections:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
   - block: markdown
+    id: tech
     content:
-      title: Learning creatively, Learning effectively
+      title: Learning creatively. Learning effectively.
       text: I build innovations that motivate students and support their learning as they tackle complex projects.
   - block: cta-image-paragraph
     id: support
@@ -111,41 +118,44 @@ sections:
           text: I developed a novel way to deliver short lectures *in the student's programming environment*.
           feature_icon: code-bracket-square
           features:
-            - Pause at any point and edit the code
-            - Mini coding assigmnets embeeded in the lecture
-            - Comprehension questions keep students engaged
+            - Pause at any point and edit the code.
+            - Mini coding assigmnets embeeded in the lecture.
+            - Comprehension questions keep students engaged.
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: cta/videos.png
+          button:
+            text: Check it out
+            url: project/jigsaw
         - title: Automated Hints and Feedback
           text: I developed data-driven hints and feedback that support students when they get stuck, using data from prior students.
           feature_icon: star
           features:
-            - Pause at any point and edit the code
-            - Mini coding assigmnets embeeded in the lecture
-            - Comprehension questions keep students engaged
-          image: build-website.png
+            - Pause at any point and edit the code.
+            - Mini coding assigmnets embeeded in the lecture.
+            - Comprehension questions keep students engaged.
+          image: cta/isnap.png
           button:
             text: Check it out
-            url: project/isnap
+            url: project/isnap.png
         - title: Code that Explains Itself
           text: I created a code visualization tool that directly links each line of code students write to output they see.
           feature_icon: play-circle
           features:
-            - Visualize iteration, even with complex nested loops
-            - See how variables changes throughout execution
-            - Easily debug issues in your code
-          image: build-website.png
+            - Visualize iteration, even with complex nested loops.
+            - See how variables changes throughout execution.
+            - Easily debug issues in your code.
+          image: cta/explainable.png
           button:
             text: Check it out
             url: project/explainable
-        - title: Learn Program Design
-          text: Jigsaw lets students learn to design a function before they write code to implement it, so they can focus on learning important programming design patterns.
+        - title: Learning Program Design
+          text: Jigsaw lets students design a function before they write code to implement it, so they can focus on learning important programming design patterns.
           feature_icon: puzzle-piece
           features:
-            - Compose solutions out of common code "recipes"
-            - Visualize how code executes with different inputs
-            - Use your design to solve the problem with code
-          image: build-website.png
+            - Compose solutions out of common code "recipes".
+            - Visualize how code executes with different inputs.
+            - Use your design to solve the problem with code.
+          image: cta/jigsaw.png
           button:
             text: Check it out
             url: project/jigsaw
@@ -154,6 +164,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       
   - block: stats
+    id: outcomes
     content:
       items:
         - statistic: "4.8M+"
@@ -170,7 +181,7 @@ sections:
             by my work
   - block: testimonials
     content:
-      title: "Student course evaluation comments"
+      title: "Student Feedback"
       text: ""
       items:
         - name: "Undergraduate student, Computer Science Principles"
@@ -193,36 +204,30 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: accomplishments
+    id: expertise
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Expertise
+      text: I bring core capabilities to my work to create high-impact educational innovations.
       items:
-        - name: Optimized SEO
+        - name: Evidence-based Practices
           icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+          description: I build on research to create innovations with real, measuable learning and engagement.
+        - name: Rapid Prototyping and Iteration
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: I go from an idea to a fully-interactive prototype quickly, and pivot when ideas don't work.
+        - name: A/B Testing and Experimentation
+          icon: adjustments-horizontal
+          description: I use experiments to compare ideas and make data-backed design choices that *work*.
+        - name: User Testing
+          icon: user-group
+          description: I run detailed user testing to understand learners' mental models and extract design insight.
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: Contact
+      text: If you want to work with me, get in touch!
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Contact
+        url: contact/
     design:
       card:
         # Card background color (CSS class)
