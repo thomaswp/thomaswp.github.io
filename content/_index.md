@@ -16,7 +16,7 @@ sections:
   - block: hero
     content:
       title: Thomas W. Price
-      text: Teaching Innovations Portfolio
+      text: Educations Innovations Portfolio
       primary_action:
         text: See Projects
         url: project/
@@ -152,6 +152,22 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      
+  - block: stats
+    content:
+      items:
+        - statistic: "4.8M+"
+          description: |
+            Grant funding  
+            to support my work
+        - statistic: "65+"
+          description: |
+            Peer-reviewed papers  
+            on education innovation
+        - statistic: "5k+"
+          description: |
+            Students impacted
+            by my work
   - block: testimonials
     content:
       title: "Student course evaluation comments"
@@ -170,21 +186,6 @@ sections:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
   
-  - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -192,7 +193,7 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: features
+    id: accomplishments
     content:
       title: Features
       text: Build your site with blocks 🧱
