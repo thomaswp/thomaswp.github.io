@@ -1,15 +1,13 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
+title: Bounce! A game-based curriculum for introductory programming
 summary: Use popular tools such as Plotly, Mermaid, and data frames.
 date: 2023-10-25
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  - Curriculum
+show_featured_image: false
 ---
 
-![Description of GIF](bounce.gif)
+
+<img src="bounce.png" class="gif" alt="Bounce game"/>
