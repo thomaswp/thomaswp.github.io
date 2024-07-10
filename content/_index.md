@@ -13,12 +13,13 @@ sections:
       title: Thomas W. Price
       text: Educations Innovations Portfolio
       primary_action:
-        text: See Projects
-        url: project/
-        icon: academic-cap
-      secondary_action:
         text: Resume
-        url: https://docs.hugoblox.com
+        url: project/
+        icon: document-arrow-down
+      secondary_action:
+        text: Contact
+        url: /#contact
+        icon: envelope
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -80,7 +81,7 @@ sections:
           image: cta/physics.png
           button:
             text: Check it out
-            url: project/snap-games
+            url: project/snap-games/
         - title: Making Music
           text: TraceNote lets students learn to trace code intuitively by playing music.
           feature_icon: musical-note
@@ -238,12 +239,13 @@ sections:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["0rem", 0, 0, 0]
   - block: cta-card
+    id: contact
     content:
       title: Contact
       text: If you want to work with me, get in touch!
       button:
         text: Contact
-        url: contact/
+        url: contact/ # TODO!!
     design:
       card:
         # Card background color (CSS class)

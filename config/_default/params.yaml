@@ -14,8 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    description: "Thomas Price's portfolio of educational innovations."
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,15 +32,7 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
-    logo:
-      text: ""
-      # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
-    show_search: true
+    show_search: false
     show_theme_chooser: true
 
 # Site footer

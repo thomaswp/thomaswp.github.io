@@ -18,6 +18,9 @@ main:
   - name: Expertise
     url: /#expertise
     weight: 40
-  - name: Projects
-    url: /project/
+  - name: Contact
+    url: /#contact
     weight: 50
+  # - name: Projects
+  #   url: /project/
+  #   weight: 50

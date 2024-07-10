@@ -1,6 +1,6 @@
 ---
-title: Bounce! A game-based curriculum for introductory programming
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
+title: "Snap Interact: Phsycis and Games in Snap!"
+summary: ''
 date: 2023-08-15
 authors:
   - admin
@@ -9,12 +9,9 @@ tags:
 show_featured_image: false
 ---
 
-Bounce! was the outcome of my attempt to make an introductor programming sequence with these properties:
-* **Fun**: Student make a program they actually want to run and play with.
-* **Support**: Students practice one idea idea at a time, always within their ability.
-* **Rigor**: Students learn real programming concepts and practice them enough for proficiency.
-* **Ownership**: Students write almost all of the code, with no hidden functionality.
-* **Authenticity**: The final product looks and feels like a production-quality app.
+{{< button text="Physics Demo" url="#" >}}
+
+In my introductory programming class, students make an open-ended project
 
 The outcome was a game-based curriculum, where students build Bounce!, based on a popular casual mobile game ([Okay?](https://play.google.com/store/apps/details?id=de.stollenmayer.philipp.Pop_1_1_Android)), with 10M+ downloads.
 
