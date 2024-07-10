@@ -36,18 +36,20 @@ sections:
     id: philosophy
     content:
       items:
-        - title: Hi, I'm Thomas
+        - title: Hi, I'm Thomas 👋
           text: "I build educational innovations that **reimagine the way that people learn to program**, so they can:"
           feature_icon: chevron-double-right
           features:
             - Express themselves
             - Connect with their interests
-            - Act on their values
+            - And act on their values
           # Upload image to `assets/media/` and reference the filename here
           image: cta/thomas.jpg
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
   - block: markdown
     id: teaching
     content:
@@ -148,6 +150,18 @@ sections:
           button:
             text: Check it out
             url: project/explainable
+        - title: Adaptive A/B Testing to Improve Learning
+          text: "My team won the [$1M XPRIZE Digital Learning Challenge](https://www.xprize.org/challenge/digitallearning/articles/xprize-and-the-institute-of-education-sciences-announce-winners-of-1m-digital-learning-challenge) to modernize the use of
+          experimentation in education."
+          feature_icon: adjustments-horizontal
+          features:
+            - A/B testing reveals effective instructional design.
+            - Adaptive experimentation maximizes student benefit.
+            - Supports personalized learning at scale.
+          image: cta/ab-testing.jpg
+          button:
+            text: Check it out
+            url: project/ab-testing
         - title: Learning Program Design
           text: Jigsaw lets students design a function before they write code to implement it, so they can focus on learning important programming design patterns.
           feature_icon: puzzle-piece
@@ -162,47 +176,26 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-      
+
   - block: stats
     id: outcomes
     content:
       items:
         - statistic: "4.8M+"
           description: |
-            Grant funding  
+            Grant funding
             to support my work
         - statistic: "65+"
           description: |
-            Peer-reviewed papers  
+            Peer-reviewed papers
             on education innovation
         - statistic: "5k+"
           description: |
             Students impacted
             by my work
-  - block: testimonials
-    content:
-      title: "Student Feedback"
-      text: ""
-      items:
-        - name: "Undergraduate student, Computer Science Principles"
-          text: Dr. Price was always prepared for class with a presentation, Tophat, and usually lab activity... The interactive videos for homework were very helpful, and this class is one of the few I think that truly benefit from the `flipped classroom'.
-        - name: "Graduate student, Automated Learning and Data Analysis"
-          # Upload image to `assets/media/` and reference the filename here
-          # image: "testimonial-1.jpg"
-          text: "Truly, Dr. Price is the best educator I have had in my three years here at NCSU."
-        - name: "Undergraduate student, Automated Learning and Data Analysis"
-          text: One of the strongest teachers I've ever had. He's consistently prepared for class with in-depth knowledge about every subject we cover...  If you have a system where teachers train other teachers, letting Dr. Price run that would be a great idea.
     design:
       spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+        padding: ["2rem", 0, "2rem", 0]
   - block: features
     id: expertise
     content:
@@ -221,6 +214,29 @@ sections:
         - name: User Testing
           icon: user-group
           description: I run detailed user testing to understand learners' mental models and extract design insight.
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["0rem", 0, "0rem", 0]
+  - block: testimonials
+    content:
+      title: "Student Feedback"
+      text: ""
+      items:
+        - name: "Undergraduate student, Computer Science Principles"
+          text: Dr. Price was always prepared for class with a presentation, Tophat, and usually lab activity... The interactive videos for homework were very helpful, and this class is one of the few I think that truly benefit from the 'flipped classroom'.
+        - name: "Graduate student, Automated Learning and Data Analysis"
+          # Upload image to `assets/media/` and reference the filename here
+          # image: "testimonial-1.jpg"
+          text: "Dr. Price was respectful to students throughout the course and always looking for feedback. He excelled in translating very difficult to understand topics of machine learning into easily understandable presentations even for students not of a machine learning background. His PowerPoints were extraordinarily clear and well created and care in every aspect of the course was shown."
+        - name: "Undergraduate student, Automated Learning and Data Analysis"
+          text: One of the strongest teachers I've ever had. He's consistently prepared for class with in-depth knowledge about every subject we cover...  If you have a system where teachers train other teachers, letting Dr. Price run that would be a great idea.
+    design:
+      spacing:
+        # Reduce bottom spacing so the testimonial appears vertically centered between sections
+        padding: ["0rem", 0, 0, 0]
   - block: cta-card
     content:
       title: Contact

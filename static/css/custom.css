@@ -10,8 +10,8 @@
     }
 }
 
-img.gif, img.gp-gif-element {
-	border: 1px solid #ddd;
+img.gif, img.gp-gif-element, figure img {
+	outline: 1px solid #ddd;
 }
 
 ins.play-gif {

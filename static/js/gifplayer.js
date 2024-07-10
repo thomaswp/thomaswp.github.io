@@ -7,7 +7,8 @@
 
 $(document).ready(function () {
 	window.gifFactory($);
-    $('.gif').gifplayer();
+    $('figure.gif img').gifplayer();
+	$('img.gif').gifplayer();
 });
 
 window.gifFactory = function($) {
@@ -42,8 +43,9 @@ window.gifFactory = function($) {
 		wrap: function(){
 			this.previewElement.addClass('gifplayer-ready');
 			this.wrapper = this.previewElement.wrap("<div class='gifplayer-wrapper'></div>").parent();
-			this.wrapper.css('width', this.previewElement.width());
-			this.wrapper.css('height', this.previewElement.height());
+			// this.wrapper.css('width', this.previewElement.width());
+			// this.wrapper.css('height', this.previewElement.height());
+			this.wrapper.css('width', 'fit-content');
 			this.previewElement.css('cursor','pointer');
 		},
 
@@ -66,8 +68,12 @@ window.gifFactory = function($) {
 			var label = this.getOption('label');
 			this.playElement = $("<ins class='play-gif'>" + label + "</ins>");
 			this.wrapper.append(this.playElement);
-			this.playElement.css('top', this.previewElement.height()/2 - this.playElement.height()/2);
-			this.playElement.css('left', this.previewElement.width()/2 - this.playElement.width()/2);
+			this.playElement.css('position', 'absolute');
+			this.playElement.css('top', '50%');
+			this.playElement.css('left', '50%');
+			this.playElement.css('transform', 'translate(-50%, -50%)');
+			// this.playElement.css('top', this.previewElement.height()/2 - this.playElement.height()/2);
+			// this.playElement.css('left', this.previewElement.width()/2 - this.playElement.width()/2);
 		},
 
 		addEvents: function(){
@@ -175,6 +181,7 @@ window.gifFactory = function($) {
 			var gifHeight = this.previewElement.height();
 
 			this.gifElement=$("<img class='gp-gif-element' width='"+ gifWidth + "' height=' "+ gifHeight +" '/>");
+			// this.gifElement=$("<img class='gp-gif-element'/>");
 
 			var wait = this.getOption('wait');
 			if(wait){
@@ -196,9 +203,9 @@ window.gifFactory = function($) {
 				gp.spinnerElement.hide();
 			}
 			this.gifElement.css('cursor','pointer');
-			this.gifElement.css('position','absolute');
-			this.gifElement.css('top','0');
-			this.gifElement.css('left','0');
+			// this.gifElement.css('position','absolute');
+			// this.gifElement.css('top','0');
+			// this.gifElement.css('left','0');
 			this.gifElement.attr('src', gifSrc);
 			this.gifElement.click( function(e){
 				// Fire event onClick
