@@ -128,7 +128,7 @@ sections:
           image: cta/videos.png
           button:
             text: Check it out
-            url: project/jigsaw
+            url: project/snap-replay/
         - title: Automated Hints and Feedback
           text: I developed data-driven hints and feedback that support students when they get stuck, using data from prior students.
           feature_icon: star
@@ -203,6 +203,9 @@ sections:
       title: Expertise
       text: I bring core capabilities to my work to create high-impact educational innovations.
       items:
+        - name: Full-service Problem Solving
+          icon: light-bulb
+          description: I wear all the hats -- need finding, ideation, design, prototyping, user testing, deployment and evaluation.
         - name: Evidence-based Practices
           icon: magnifying-glass
           description: I build on research to create innovations with real, measuable learning and engagement.
@@ -215,6 +218,9 @@ sections:
         - name: User Testing
           icon: user-group
           description: I run detailed user testing to understand learners' mental models and extract design insight.
+        - name: Technical Innovation
+          icon: code-bracket
+          description: I've made [custom interpreters](project/tracenote/), [redesigned IDEs](project/snap-replay/), and [built data-driven models](project/isnap/) -- whatever innovation I needed to build the best learning experience.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
