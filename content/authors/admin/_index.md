@@ -37,7 +37,7 @@ profiles:
     url: uploads/resume.pdf
     label: Download my resume
   - icon: academicons/google-scholar
-    url: ./post/index.xml
+    url: https://scholar.google.com/citations?user=v6zJ_8cAAAAJ&hl=en
     label: Check out my publications on Google Scholar
 
 # Highlight the author in author lists? (true/false)
