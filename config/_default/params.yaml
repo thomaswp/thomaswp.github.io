@@ -38,7 +38,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Thomas Price'
 
 # Localization
 locale:
