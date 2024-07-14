@@ -32,6 +32,8 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
+    logo:
+      text: "Portfolio | Thomas Price"
     show_search: false
     show_theme_chooser: true
 

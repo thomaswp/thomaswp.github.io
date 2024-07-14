@@ -55,7 +55,7 @@ sections:
     id: teaching
     content:
       title: Curricular Innovations
-      text: I design curricula and tools that make learning programming and AI engaging and authentic.
+      text: I design curricula and tools that make learning programming engaging and authentic.
   - block: cta-image-paragraph
     content:
       items:
