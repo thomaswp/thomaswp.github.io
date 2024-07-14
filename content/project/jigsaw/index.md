@@ -118,14 +118,11 @@ This allows students to try other inputs and solution plans, and to experiment w
 
 ### Student-defined Patterns
 
-If students want to use plans that aren't defined by Jigsaw in their plans, they can define their own pattern, specifying the inputs and outputs:
+If students want to use patterns that aren't defined by Jigsaw in their plans, they can define their own pattern, specifying the types of its inputs and outputs:
 
 {{<figure src="custom.png" >}}
 
-Then, when they use the block in their plan, they are asked to specify the output of the pattern, for each of its inputs:
+Then, when they use the block in their plan, they are asked to specify the outputs of the pattern, for each of its inputs. Afterwards, they can use their new plan block in a larger plan.
 
-{{<figure src="examples.png" >}}
+{{<figure src="custom-use.png" class="gif" >}}
 
-Afterwards, they can use their new plan block in a larger plan:
-
-{{<figure src="custom-use.png" >}}
