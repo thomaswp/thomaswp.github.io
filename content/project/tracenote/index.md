@@ -1,11 +1,11 @@
 ---
-title: "Extending Block-based Programming with Physics!"
+title: "TraceNote: Learn Code Tracing by Playing Music"
 summary: ''
 date: 2023-09-28
 authors:
   - admin
 tags:
-  - Curriculum
+  - Learning Environments
 ---
 
 Code tacing is the ability to read code, understand how the program flows and variable values change, and predict program output. It is a critical skill that supports students' ability to write code.
@@ -14,17 +14,17 @@ It makes sense -- we teach students how to read *natural* language before we tea
 
 But there's a big challenge to teaching code tracing: It's *tedious* for students, requiring them to carefully track variable values, and repeat the process until they build fluency.
 
-What if students could learn to trace code in a way that was fun, and made it easy to buid intuitive fluency in this critical skill? 
+What if students could learn to trace code in a way that was fun, and made it easy to buid intuitive fluency in this critical skill?
 
 ### TraceNote
 
-That's where TraceNote comes in. TraceNote is a demo I built to explore the question of how students could learn to trace code by playing music. In TraceNote, students learn to trace a simplified programming language that represents music. Students trace the program, and when it says to play a note, students play that note, using a gamepad or keyboard. Students can only play the correct next note in the tune if they've correctly traced the program so far. 
+That's where TraceNote comes in. TraceNote is a demo I built to explore the question of how students could learn to trace code by playing music. In TraceNote, students learn to trace a simplified programming language that represents music. Students trace the program, and when it says to play a note, students play that note, using a gamepad or keyboard. Students can only play the correct next note in the tune if they've correctly traced the program so far.
 
 Students don't have to know anything about musical notation. TraceNote uses arrows to represent notes, so playing {{< icon name=arrow-right >}} {{< icon name=arrow-down-right >}} and {{< icon name=arrow-down >}} will play three ascending notes in the tune's key. Here's a very simple example (sound on!).
 
 {{< video src="basic.mp4" controls="yes" >}}
 
-{{< button text="Try the TraceNote Demo" url="https://thomaswp.github.io/TraceNote/" >}} 
+{{< button text="Try the TraceNote Demo" url="https://thomaswp.github.io/TraceNote/" >}}
 
 {{% callout note %}}
 TraceNote is still a demo, so there's no tutorial. You can select a tune to plan in the menu to the left, then press "Play" to hear it or "Start" to trace it. Use a gamepad or your keyboard arrow key to indicate what note you think comes next, and then press space to test if you're correct. You can press Stop if you want to stop or change songs.
@@ -99,6 +99,6 @@ levels.push(new class extends Level {
 });
 ```
 
-{{< button text="Try the TraceNote Demo" url="https://thomaswp.github.io/TraceNote/" >}} 
+{{< button text="Try the TraceNote Demo" url="https://thomaswp.github.io/TraceNote/" >}}
 
 

@@ -98,13 +98,13 @@ sections:
           text: In my Machine Learning class, students solved a real-world problem for the NC State Climate Office to identify erroneous instrument readings.
           feature_icon: globe-alt
           features:
-            - A real dataset with 500M+ and heavy class imbalance.
+            - A real dataset with 8M+ instances and heavy class imbalance.
             - Students competed on a leaderboard to build the best model.
             - The winners were hired to build a production model.
           image: cta/econet.png
           button:
             text: Check it out
-            url: project/tracenote
+            url: project/econet
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -139,7 +139,7 @@ sections:
           image: cta/isnap.png
           button:
             text: Check it out
-            url: project/isnap.png
+            url: project/isnap
         - title: Code that Explains Itself
           text: I created a code visualization tool that directly links each line of code students write to output they see.
           feature_icon: play-circle
@@ -152,7 +152,7 @@ sections:
             text: Check it out
             url: project/explainable
         - title: Adaptive A/B Testing to Improve Learning
-          text: "My team won the [$1M XPRIZE Digital Learning Challenge](https://www.xprize.org/challenge/digitallearning/articles/xprize-and-the-institute-of-education-sciences-announce-winners-of-1m-digital-learning-challenge) to modernize the use of
+          text: "My team won the <ins>[$1M XPRIZE Digital Learning Challenge](https://www.xprize.org/challenge/digitallearning/articles/xprize-and-the-institute-of-education-sciences-announce-winners-of-1m-digital-learning-challenge)</ins> to modernize the use of
           experimentation in education."
           feature_icon: adjustments-horizontal
           features:
@@ -220,7 +220,7 @@ sections:
           description: I run detailed user testing to understand learners' mental models and extract design insight.
         - name: Technical Innovation
           icon: code-bracket
-          description: I've made [custom interpreters](project/tracenote/), [redesigned IDEs](project/snap-replay/), and [built data-driven models](project/isnap/) -- whatever innovation I needed to build the best learning experience.
+          description: I've made <ins>[custom interpreters](project/tracenote/)</ins>, <ins>[redesigned IDEs](project/snap-replay/)</ins>, and built <ins>[data-driven models](project/isnap/)</ins> -- whatever innovation I needed to build the best learning experience.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
