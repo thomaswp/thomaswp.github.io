@@ -6,6 +6,7 @@ authors:
   - admin
 tags:
   - Curriculum
+  - Block-based Programming
 show_featured_image: false
 ---
 
@@ -23,6 +24,12 @@ The outcome was a game-based curriculum, where students build Bounce!, based on 
 This project is designed to teach programming basics (loops, variables, procedures, conditionals). While the game is complex, students write almost the whole thing, with only a small bit of instructor-written code to get them started and to handle the complex math of bouncing.
 
 {{< figure src="bounce.png" class="gif" >}}
+
+{{< button text="Play the Complete Game" url="https://snap.berkeley.edu/snap/snap.html#present:Username=thomaswprice&ProjectName=Bounce!" >}}
+
+{{% callout note %}}
+If you want to see the code for any linked demo, press the {{< icon name="arrows-pointing-in" >}} button to exit full screen mode.
+{{% /callout %}}
 
 Bounce! uses the Snap<em>!</em> block-based programming language that lets students create expressive apps easily. Research suggests that blocks allow students to learn core programming concepts like iteration earlier, before they grapple with syntax.
 

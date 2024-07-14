@@ -6,6 +6,7 @@ authors:
   - admin
 tags:
   - Curriculum
+  - Block-based Programming
 show_featured_image: false
 ---
 
@@ -19,7 +20,7 @@ For example, a simple program can help students understand how the orbit of a pl
 
 {{<figure src="orbit.png" class="gif" >}}
 
-{{< button text="Try the Orbit Demo" url="https://isnap.csc.ncsu.edu/public/snap-games/snap.html#present:Username=thomaswprice&ProjectName=Solar%20Sim" >}} 
+{{< button text="Try the Orbit Demo" url="https://isnap.csc.ncsu.edu/public/snap-games/snap.html#present:Username=thomaswprice&ProjectName=Solar%20Sim" >}}
 
 {{% callout note %}}
 If you want to see the code for any linked demo, press the {{< icon name="arrows-pointing-in" >}} button to exit full screen mode.

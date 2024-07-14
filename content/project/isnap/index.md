@@ -2,9 +2,9 @@
 title: "iSnap: Data-driven Hints for Block-based Programming"
 summary: iSnap supports students automatically with hints, feedback and self-explanations.
 tags:
-- Computing Education
-- Educational Data Mining
-- Hints
+- Learning Tools
+- Data-driven
+- Block-based Programming
 date: 2021-01-01
 authors:
 - Thomas W. Price
@@ -52,9 +52,11 @@ The construction of a Snap program and the corresponding evaluation.
 
 Using data collected from real students working on programming assignments, we are able to generate on-demand, next-step hints for students who get stuck on these assignments. The _SourceCheck_ algorithm matches students' code to previously observed code from students who successfully completed the assignment and recommends an edit based on how those students progressed.
 
-<img src="error-check.png" class="gif" alt="Snap checking an error"/>
+{{< figure src="error-check.png" class="gif" >}}
 
 See an explanation of iSnap's help features below, or try them out yourself at the [iSnap demo](https://go.ncsu.edu/isnap). Select any assignment and test out the hints.
+
+{{< button text="See the Demo!" url="https://go.ncsu.edu/isnap" >}}
 
 When a student needs help, they can ask iSnap to check their work. To start off, it shows two colors:
 
@@ -73,13 +75,13 @@ Clicking a button or highlighted input will show a next-step hint, comparing a s
 
 The above demo shows off iSnap's newest hint interface, but much of the earlier research with iSnap used a simpler hint interface, based on the Contextual Tree Decomposition (CTD) algorithm. The assignment asks you to create a guessing game, in which the computer stores a random number and then repeated asks the player to guess it, telling them if they are too high, too low or correct.
 
-<img class="gif" src="ask-hint.png" height="150px">
+{{< figure class="gif" src="ask-hint.png" height="150px" >}}
 
 When a student is stuck, they can request a hint with the click of a button.
 
-<img class="gif" src="get-script-hint.png" height="200px">
+{{< figure class="gif" src="get-script-hint.png" height="200px" >}}
 
-<img class="gif" src="get-block-hint.png" height="200px">
+{{< figure class="gif" src="get-block-hint.png" height="200px" >}}
 
 Students can request hints about whole scripts or individual blocks.
 
@@ -92,7 +94,7 @@ iSnap logs all actions taken by students in the environment, as well as snapshot
 
 **Note**: this is a demo site and does not include actual student data.
 
-<img src="logging.png">
+{{< figure src="logging.png" >}}
 
 iSnap offers a basic interface to navigate and view the logs it generates.
 

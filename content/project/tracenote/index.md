@@ -5,7 +5,7 @@ date: 2023-09-28
 authors:
   - admin
 tags:
-  - Learning Environments
+  - Learning Tools
 ---
 
 Code tacing is the ability to read code, understand how the program flows and variable values change, and predict program output. It is a critical skill that supports students' ability to write code.

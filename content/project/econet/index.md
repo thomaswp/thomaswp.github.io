@@ -6,6 +6,7 @@ authors:
   - admin
 tags:
   - Curricula
+  - Machine Learning
 ---
 
 In my introductory Machine Learning (ML) course, for undergraduate and graduate students, students complete a course project, where they have to design an ML pipeline to solve a realistic problem from start to finish. While many datasets provide an adequate challenge, my goal had always been to find a real-world partner to act as a client, allowing students to tackle an authentic problem with potential impact.
