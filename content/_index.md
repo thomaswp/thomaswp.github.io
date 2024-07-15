@@ -167,7 +167,7 @@ sections:
           text: Jigsaw lets students design a function before they write code to implement it, so they can focus on learning important programming design patterns.
           feature_icon: puzzle-piece
           features:
-            - Compose solutions out of common code "recipes".
+            - Compose solutions out of common code "patterns" like `filter`.
             - Visualize how code executes with different inputs.
             - Use your design to solve the problem with code.
           image: cta/jigsaw.png
@@ -182,7 +182,7 @@ sections:
     id: outcomes
     content:
       items:
-        - statistic: "4.8M+"
+        - statistic: "$4.8M+"
           description: |
             Grant funding
             to support my work
