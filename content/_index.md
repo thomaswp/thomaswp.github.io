@@ -38,12 +38,12 @@ sections:
     content:
       items:
         - title: Hi, I'm Thomas 👋
-          text: "I build educational innovations that **reimagine the way that people learn to program**, so they can:"
+          text: "I build educational innovations that **reimagine the way that people learn to program** so they can:"
           feature_icon: chevron-double-right
           features:
-            - Express themselves
-            - Connect with their interests
-            - And act on their values
+            - Express themselves and their values with programming.
+            - Build an intuitive understanding of concepts quickly.
+            - Benefit from cutting edge, evidence-based learning support.
           # Upload image to `assets/media/` and reference the filename here
           image: cta/thomas.jpg
     design:

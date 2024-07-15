@@ -34,6 +34,7 @@ header:
     fixed_to_top: true
     logo:
       text: "Portfolio | Thomas Price"
+      # filename: logo.svg
     show_search: false
     show_theme_chooser: true
 
