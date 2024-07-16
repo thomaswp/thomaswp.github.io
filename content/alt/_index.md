@@ -34,11 +34,11 @@ sections:
           filters:
             brightness: 0.5
   - block: cta-image-paragraph
-    id: philosophy
+    id: teaching
     content:
       items:
         - title: Hi, I'm Thomas 👋
-          text: "I build educational products that **reimagine the way that people learn to program** so they can:"
+          text: "I build educational innovations that **reimagine the way that people learn to program** so they can:"
           feature_icon: chevron-double-right
           features:
             - Express themselves and their values with programming.
@@ -46,22 +46,6 @@ sections:
             - Benefit from cutting edge, evidence-based learning support.
           # Upload image to `assets/media/` and reference the filename here
           image: cta/thomas.jpg
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
-  - block: markdown
-    id: teaching
-    content:
-      title: Teaching Innovations
-      text: I design curricula and tools that make learning programming engaging and authentic.
-    design:
-      spacing:
-        padding: ["5rem", 0, "5rem", 0]
-  - block: cta-image-paragraph
-    content:
-      items:
         - title: Making Games
           text: My "Bounce!" curriculum covers all the basics of programming by making a popular casual game.
           feature_icon: play
@@ -72,7 +56,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: cta/bounce.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/bounce/
         - title: Making Simulations
           text: I extended a popular novice programming environment with a Physics API allowing for easy simulations.
@@ -83,7 +67,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: cta/physics.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/snap-games/
         - title: Making Music
           text: TraceNote lets students learn to trace code intuitively by playing music.
@@ -95,7 +79,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: cta/tracenote.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/tracenote
         - title: Making a Difference
           text: In my Machine Learning class, students solved a real-world problem for the NC State Climate Office to identify erroneous instrument readings.
@@ -106,19 +90,18 @@ sections:
             - The winners were hired to build a production model.
           image: cta/econet.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/econet
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
   - block: markdown
     id: tech
     content:
       title: Learning creatively. Learning effectively.
       text: I build innovations that motivate students and support their learning as they tackle complex projects.
-    design:
-      spacing:
-        padding: ["5rem", 0, "5rem", 0]
   - block: cta-image-paragraph
     id: support
     content:
@@ -133,7 +116,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: cta/videos.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/snap-replay/
         - title: Automated Hints and Feedback
           text: I developed data-driven hints and feedback that support students when they get stuck, using data from prior students.
@@ -144,7 +127,7 @@ sections:
             - Comprehension questions keep students engaged.
           image: cta/isnap.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/isnap
         - title: Code that Explains Itself
           text: I created a code visualization tool that directly links each line of code students write to output they see.
@@ -155,7 +138,7 @@ sections:
             - Easily debug issues in your code.
           image: cta/explainable.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/explainable
         - title: Adaptive A/B Testing to Improve Learning
           text: "My team won the <ins>[$1M XPRIZE Digital Learning Challenge](https://www.xprize.org/challenge/digitallearning/articles/xprize-and-the-institute-of-education-sciences-announce-winners-of-1m-digital-learning-challenge)</ins> to modernize the use of
@@ -167,7 +150,7 @@ sections:
             - Supports personalized learning at scale.
           image: cta/ab-testing.jpg
           button:
-            text: Learn more
+            text: Check it out
             url: project/ab-testing
         - title: Learning Program Design
           text: Jigsaw lets students design a function before they write code to implement it, so they can focus on learning important programming design patterns.
@@ -178,7 +161,7 @@ sections:
             - Use your design to solve the problem with code.
           image: cta/jigsaw.png
           button:
-            text: Learn more
+            text: Check it out
             url: project/jigsaw
     design:
       # Section background color (CSS class)
