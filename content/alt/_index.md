@@ -237,10 +237,9 @@ sections:
     id: contact
     content:
       title: Contact
-      text: If you want to work with me, get in touch!
-      button:
-        text: Contact
-        url: contact/ # TODO!!
+      text: >
+        If you want to work with me, get in touch!
+        [Email](twprice@ncsu.edu) | [LinkedIn]() | 
     design:
       card:
         # Card background color (CSS class)

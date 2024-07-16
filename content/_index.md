@@ -14,7 +14,7 @@ sections:
       text: Educations Innovations Portfolio
       primary_action:
         text: Resume
-        url: project/
+        url: uploads/resume.pdf
         icon: document-arrow-down
       secondary_action:
         text: Contact
@@ -55,7 +55,9 @@ sections:
     id: teaching
     content:
       title: Teaching Innovations
-      text: I design curricula and tools that make learning programming engaging and authentic.
+      text: >
+        I design curricula and tools that make learning programming engaging and authentic, like the examples below!
+        {{< icon name="chevron-double-down" >}} {{< icon name="chevron-double-down" >}}
     design:
       spacing:
         padding: ["5rem", 0, "5rem", 0]
@@ -250,17 +252,43 @@ sections:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["0rem", 0, 0, 0]
-  - block: cta-card
+  # - block: cta-card
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     text: If you want to work with me, get in touch!
+  #     button:
+  #       text: Contact
+  #       url: contact/ # TODO!!
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
+  - block: resume-biography
     id: contact
     content:
-      title: Contact
-      text: If you want to work with me, get in touch!
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: >
+        Reach out by [Email](mailto:twprice@ncsu.edu) or [LinkedIn](https://www.linkedin.com/in/thomas-w-price/) if you'd like to discuss a collaboration!
+      # Show a call-to-action button under your biography? (optional)
       button:
-        text: Contact
-        url: contact/ # TODO!!
+        text: Download Resume
+        url: uploads/resume.pdf
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      # css_class: dark
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["1.5rem", 0, "3rem", 0]
+      # background:
+      #   color: black
+        # image:
+        #   # Add your image background to `assets/media/`.
+        #   filename: bg-triangles.svg
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: false
 ---
