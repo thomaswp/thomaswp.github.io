@@ -32,10 +32,6 @@ profiles:
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/thomas-w-price/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=v6zJ_8cAAAAJ&hl=en
     label: Check out my publications on Google Scholar
