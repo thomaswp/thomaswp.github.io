@@ -10,7 +10,7 @@ tags:
 show_featured_image: false
 ---
 
-Snap<em>!</em> is a block-based programming language that lets students create expressive apps and simulations easily. This is especially powerful for non-Computer-Science majors, like those in my introductor course, who may want to apply programming to solve problems in their own domains.
+Snap<em>!</em> is a block-based programming language that lets students create expressive apps and simulations easily. This is especially powerful for non-Computer-Science majors, like those in my introductory course, who may want to apply programming to solve problems in their own domains.
 
 I built this extension to Snap<em>!</em> to allow students to make accurate physics simulations and physics-based games. Making more advanced products can motivate students to learn programming, while also building an intuitive understanding of physics.
 

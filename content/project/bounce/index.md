@@ -10,9 +10,9 @@ tags:
 show_featured_image: false
 ---
 
-Bounce! was the outcome of my attempt to make an introductor programming sequence with these properties:
+Bounce! was the outcome of my attempt to make an introductory programming sequence with these properties:
 * **Fun**: Student make a program they actually want to run and play with.
-* **Support**: Students practice one idea idea at a time, always within their ability.
+* **Support**: Students practice one concept at a time that is always within their ability.
 * **Rigor**: Students learn real programming concepts and practice them enough for proficiency.
 * **Ownership**: Students write almost all of the code, with no hidden functionality.
 * **Authenticity**: The final product looks and feels like a production-quality app.
