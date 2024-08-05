@@ -43,5 +43,5 @@ In an **adaptive experiment**, we use what we've learned from results earlier in
 
 So how does that help? With adaptive experiments:
 * Students achieve better learning outcomes because they spend more time in more effective conditions.
-* Researchers acheive more statistical power in 3+ condition experiments by fading out ineffective conditions.
+* Researchers achieve more statistical power in 3+ condition experiments by fading out ineffective conditions.
 * We get better data for statistical minority groups (e.g. students with low prior knowledge) by personalizing an experiment's duration based on our certainty.

@@ -18,7 +18,7 @@ role: Associate Professor, Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: North Carolina Sate Univserity
+  - name: North Carolina Sate University
     url: https://www.ncsu.edu/
 
 # Short bio (displayed in user profile at end of posts)

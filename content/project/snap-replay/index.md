@@ -10,11 +10,11 @@ tags:
 show_featured_image: false
 ---
 
-Instructional videos are an important part of online learning that can support asynchronous courses, distance education, and -- in my case -- a flipped classroom, where students learn at home and then do hand-on labs in class when I can support them.
+Instructional videos are an important part of online learning that can support asynchronous courses, distance education, and -- in my case -- a flipped classroom, where students learn at home and then do hands-on labs in class when I can support them.
 
-One challenge: videos can be pretty dull, and it's easy for students tune out. For programming in particular, [it's helpful for students to program alongside the instructor](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008090), as advocated by [Software Carpentry](https://carpentries.org/).
+One challenge: videos can be pretty dull, and it's easy for students tune out. For programming in particular, [it's helpful for students to program alongside the instructor](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008090), as advocated for by [Software Carpentry](https://carpentries.org/).
 
-After teaching during the pandemic, I set out to create a better form of online video that would be as effective -- or maybe even more -- than a live classroom lecture. I wanted to create videos that would:
+After teaching during the pandemic, I set out to create a better form of online video that would be as effective as -- or maybe even more effective than -- a live classroom lecture. I wanted to create videos that would:
 * Engage students in the most effective forms of learning, like actively answering questions and constructing their own knowledge.
 * Prompt the student to explore and understand the code the instructor was sharing.
 * Create the feeling of a 1-on-1 tutoring session, with the instructor right next to the student.
@@ -23,7 +23,7 @@ After teaching during the pandemic, I set out to create a better form of online 
 
 ### Snap Videos
 
-The results is Snap Videos, which isn't a video player at all. Rather, it's a way or recording and replaying instructional content *in the student's programming environment*!
+The results is Snap Videos, which isn't a video player at all. Rather, it's a way of recording and replaying instructional content *in the student's programming environment*!
 
 For a student, the video plays almost like any other, with the instructor live coding. The difference is that any time a student wants to run, modify or explore the instructor's code, all they have to do is start editing it:
 
@@ -63,9 +63,9 @@ Pausing a video to edit the code is a neat trick, but without proper prompting, 
 
 #### Modify Questions
 
-As an instructor, my favorite feature of Snap Videos is the modify questions (name for the "modify" step of the [Use, Modify, Create framework](https://dl.acm.org/doi/10.1145/3304221.3319786)). The instructor asks the student to update some existing code that they have created during live coding.
+As an instructor, my favorite feature of Snap Videos is the *modify questions* (named for the "modify" step of the [Use, Modify, Create framework](https://dl.acm.org/doi/10.1145/3304221.3319786)). The instructor asks the student to update some existing code that they have created during live coding.
 
-Because the video is taking place in the student's editor, the student already has the instructors code and just hear and explanation of it; they just have to modify it.
+Because the video is taking place in the student's editor, the student already has the instructor's starting code and just heard the instructor's explanation of it. The student just has to modify it.
 
 {{< figure src="modify.png" >}}
 
@@ -110,13 +110,13 @@ What will the following code say when it runs?
 </div>
 ```
 
-If a student choses an incorrect answer, the instructor can provide an explanation on the relevant slide.
+If a student chooses an incorrect answer, the instructor can provide an explanation on the relevant slide.
 
 {{< figure src="mcq-hint.png" >}}
 
 ### Student Impact
 
-I've been using Snap Videos in my class (and a colleague's section) for a few years now, and students have received it very well. It often shows up unprompted in end-of-semester evaluations. For example:
+I've been using Snap Videos in my class (and a colleague's section) for a few years now, and students have received the videos very well. Praise for the videos often shows up unprompted in end-of-semester evaluations. For example:
 
 > The interactive videos for homework were very helpful, and this class is one of the few I think that truly benefit from the 'flipped classroom'.
 
@@ -134,6 +134,6 @@ But doing this with a block-based programming environment like Snap<em>!</em> is
 
 This ended up being much more challenging that I imagined. Getting basic replay functionality worked pretty quickly. But making everything work, from custom blocks to lists, in the end required me to create custom recording and replay logic for 60 in-editor actions!
 
-Additionally, playing those actions forward is one thing, but how about playing them backwards? It turned out to be much easier to allow backward scrubbing by restarting the video, and the rapidly playing it again from the video in a few seconds.
+Additionally, playing those actions forward is one thing, but how about playing them backwards? It turned out to be much easier to allow backward scrubbing by restarting the video, and then rapidly playing it again from the video in a few seconds.
 
-If I were to start this project over, I would likely opt for a hybrid model, recording a real video while also taking regular snapshots of code behind the scenes, allowing the student to load from any point in the video, and do active learning exercises, without having to support full replayability.
+If I were to start this project over, I would likely opt for a hybrid model, recording a real video while also taking regular snapshots of code behind the scenes. This would allow the student to load from any point in the video, and do active learning exercises, without having to support full replayability.

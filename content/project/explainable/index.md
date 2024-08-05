@@ -46,4 +46,4 @@ If you try the demo, you'll see that the explainable code here isn't a canned ex
 
 {{< figure src="editing.png" class="gif" >}}
 
-How does it work? Under the hood, the IDE is recording the full code trace of the user's program. In other words, every time Snap's interpreter runs a line of code, the code's parmeters and outcomes are logged, along with the line of code that triggered the action. When we want to explain what a line of code does, we can use those logs to visualize the line's effect.
+How does it work? Under the hood, the IDE is recording the full code trace of the user's program. In other words, every time Snap's interpreter runs a line of code, the code's parameters and outcomes are logged, along with the line of code that triggered the action. When we want to explain what a line of code does, we can use those logs to visualize the line's effect.
