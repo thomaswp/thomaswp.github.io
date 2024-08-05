@@ -219,7 +219,7 @@ sections:
     id: expertise
     content:
       title: Expertise
-      text: I bring core capabilities to my work to create high-impact educational innovations.
+      text: I bring core capabilities to my work to create high-impact educational content.
       items:
         - name: Full-service Problem Solving
           icon: light-bulb
