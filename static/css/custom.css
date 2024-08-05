@@ -95,3 +95,11 @@ ins.play-gif:hover{
 	margin-top: auto;
     margin-bottom: auto;
 }
+
+div.big {
+	text-align: center;
+	font-size: 3rem;
+	line-height: 1;
+	/* color: rgb(var(--color-primary-700)); */
+	font-weight: bold;
+}

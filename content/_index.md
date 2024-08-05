@@ -48,19 +48,46 @@ sections:
           image: cta/thomas.jpg
     design:
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+  # - block: markdown
+  #   content:
+  #     title: My Impact
+  #   design:
+  #     css_class: "bg-gray-100 dark:bg-gray-900"
+  #     spacing:
+  #       padding: ["4rem", 0, 0, 0]
+  - block: stats
+    id: outcomes
+    content:
+      items:
+        - statistic: "$4.8M+"
+          description: |
+            Grant funding
+            to support my work
+        - statistic: "65+"
+          description: |
+            Peer-reviewed papers
+            on education innovation
+        - statistic: "5k+"
+          description: |
+            Students impacted
+            by my work
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["2rem", 0, "2rem", 0]
   - block: markdown
     id: teaching
     content:
       title: Teaching Innovations
       text: >
         I design curricula and tools that make learning programming engaging and authentic, like the examples below!
-        {{< icon name="chevron-double-down" >}} {{< icon name="chevron-double-down" >}}
+        
+        <div class="big">{{< icon name="chevron-double-down" >}}</div>
     design:
       spacing:
-        padding: ["5rem", 0, "5rem", 0]
+        padding: ["5rem", 0, "3rem", 0]
   - block: cta-image-paragraph
     content:
       items:
@@ -116,11 +143,13 @@ sections:
   - block: markdown
     id: tech
     content:
-      title: Learning creatively. Learning effectively.
-      text: I build innovations that motivate students and support their learning as they tackle complex projects.
+      title: Learning Technologies
+      text: I build innovations that motivate students and support their learning as they tackle complex projects, like the examples below!
+        
+        <div class="big">{{< icon name="chevron-double-down" >}}</div>
     design:
       spacing:
-        padding: ["5rem", 0, "5rem", 0]
+        padding: ["5rem", 0, "3rem", 0]
   - block: cta-image-paragraph
     id: support
     content:
@@ -186,25 +215,6 @@ sections:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
 
-  - block: stats
-    id: outcomes
-    content:
-      items:
-        - statistic: "$4.8M+"
-          description: |
-            Grant funding
-            to support my work
-        - statistic: "65+"
-          description: |
-            Peer-reviewed papers
-            on education innovation
-        - statistic: "5k+"
-          description: |
-            Students impacted
-            by my work
-    design:
-      spacing:
-        padding: ["2rem", 0, "2rem", 0]
   - block: features
     id: expertise
     content:
