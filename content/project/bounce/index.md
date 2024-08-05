@@ -1,6 +1,6 @@
 ---
 title: Bounce! A game-based curriculum for introductory programming
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
+summary: Students learn core programming concepts while making a game with, with scaffolding to support learning.
 date: 2023-08-15
 authors:
   - admin

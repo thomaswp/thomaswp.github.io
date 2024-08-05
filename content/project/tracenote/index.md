@@ -8,13 +8,13 @@ tags:
   - Learning Tools
 ---
 
-Code tacing is the ability to read code, understand how the program flows and variable values change, and predict program output. It is a critical skill that supports students' ability to write code.
+Code tracing is the ability to read code, understand how the program flows and variable values change, and predict program output. It is a critical skill that supports students' ability to write code.
 
 It makes sense -- we teach students how to read *natural* language before we teach them to write. Why shouldn't it be the same for code?
 
 But there's a big challenge to teaching code tracing: It's *tedious* for students, requiring them to carefully track variable values, and repeat the process until they build fluency.
 
-What if students could learn to trace code in a way that was fun, and made it easy to buid intuitive fluency in this critical skill?
+What if students could learn to trace code in a way that was fun, and made it easy to build intuitive fluency in this critical skill?
 
 ### TraceNote
 
@@ -52,7 +52,7 @@ In TraceNote, we can indicate that a variable in incremented ⭮ or decremented 
 
 We can even introduce more advanced concepts like functions and lists!
 
-In music, there are many common sequences of notes, like arpegios, that start on a root note and then play a series of notes relative to it. Some of these "functions" are universal, and some are specific to a song.
+In music, there are many common sequences of notes, like arpeggios, that start on a root note and then play a series of notes relative to it. Some of these "functions" are universal, and some are specific to a song.
 
 {{< video src="functions.mp4" controls="yes" >}}
 

@@ -130,7 +130,7 @@ sections:
           feature_icon: code-bracket-square
           features:
             - Pause at any point and edit the code.
-            - Mini coding assigmnets embeeded in the lecture.
+            - Mini coding assignments embedded in the lecture.
             - Comprehension questions keep students engaged.
           # Upload image to `assets/media/` and reference the filename here
           image: cta/videos.png
@@ -141,9 +141,9 @@ sections:
           text: I developed data-driven hints and feedback that support students when they get stuck, using data from prior students.
           feature_icon: star
           features:
-            - Pause at any point and edit the code.
-            - Mini coding assigmnets embeeded in the lecture.
-            - Comprehension questions keep students engaged.
+            - Customized help adapts to the student's code.
+            - Data-driven algorithm requires little to no instructor authoring.
+            - Rigorous evaluations show increased performance and learning.
           image: cta/isnap.png
           button:
             text: Learn more
@@ -216,7 +216,7 @@ sections:
           description: I wear all the hats -- need finding, ideation, design, prototyping, user testing, deployment and evaluation.
         - name: Evidence-based Practices
           icon: magnifying-glass
-          description: I build on research to create innovations with real, measuable learning and engagement.
+          description: I build on research to create innovations with real, measurable learning and engagement.
         - name: Rapid Prototyping and Iteration
           icon: bolt
           description: I go from an idea to a fully-interactive prototype quickly, and pivot when ideas don't work.
@@ -241,7 +241,7 @@ sections:
       text: ""
       items:
         - name: "Undergraduate student, Computer Science Principles"
-          text: Dr. Price was always prepared for class with a presentation, Tophat, and usually lab activity... The interactive videos for homework were very helpful, and this class is one of the few I think that truly benefit from the 'flipped classroom'.
+          text: Dr. Price was always prepared for class with a presentation, TopHat, and usually lab activity... The interactive videos for homework were very helpful, and this class is one of the few I think that truly benefit from the 'flipped classroom'.
         - name: "Graduate student, Automated Learning and Data Analysis"
           # Upload image to `assets/media/` and reference the filename here
           # image: "testimonial-1.jpg"
