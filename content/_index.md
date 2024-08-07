@@ -12,10 +12,10 @@ sections:
     content:
       title: Thomas W. Price
       text: Educations Innovations Portfolio
-      # primary_action:
-      #   text: Resume
-      #   url: uploads/resume.pdf
-      #   icon: document-arrow-down
+      primary_action:
+        text: Resume
+        url: uploads/Thomas Price - Resume.pdf
+        icon: document-arrow-down
       secondary_action:
         text: Contact
         url: /#contact
@@ -283,9 +283,9 @@ sections:
       text: >
         Reach out by [Email](mailto:twprice@ncsu.edu) or [LinkedIn](https://www.linkedin.com/in/thomas-w-price/) if you'd like to discuss a collaboration!
       # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download Resume
-      #   url: uploads/resume.pdf
+      button:
+        text: Download Resume
+        url: uploads/Thomas Price - Resume.pdf
     design:
       # css_class: dark
       css_class: "bg-gray-100 dark:bg-gray-900"
