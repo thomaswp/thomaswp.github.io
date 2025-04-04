@@ -8,10 +8,10 @@ main:
     weight: 10
   - name: Teaching Innovations
     url: /#teaching
-    weight: 20
+    weight: 21
   - name: Learning Technologies
     url: /#tech
-    weight: 21
+    weight: 20
   # - name: Outcomes
   #   url: /#outcomes
   #   weight: 30

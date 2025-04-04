@@ -78,69 +78,6 @@ sections:
       spacing:
         padding: ["2rem", 0, "2rem", 0]
   - block: markdown
-    id: teaching
-    content:
-      title: Teaching Innovations
-      text: >
-        I design curricula and tools that make learning programming engaging and authentic, like the examples below!
-        
-        <div class="big">{{< icon name="chevron-double-down" >}}</div>
-    design:
-      spacing:
-        padding: ["5rem", 0, "3rem", 0]
-  - block: cta-image-paragraph
-    content:
-      items:
-        - title: Making Games
-          text: My "Bounce!" curriculum covers all the basics of programming by making a popular casual game.
-          feature_icon: play
-          features:
-            - Lessons cover loops, variables, functions and conditionals.
-            - Students write almost 100% of the code, so they own their work.
-            - Final game looks polished and professional, in just 4 lessons.
-          # Upload image to `assets/media/` and reference the filename here
-          image: cta/bounce.png
-          button:
-            text: Learn more
-            url: project/bounce/
-        - title: Making Simulations
-          text: I extended a popular novice programming environment with a Physics API allowing for easy simulations.
-          feature_icon: rocket-launch
-          features:
-            - Jump straight into exploration and skip the set-up.
-            - Learn how planets orbit, or make a physics-based game.
-          # Upload image to `assets/media/` and reference the filename here
-          image: cta/physics.png
-          button:
-            text: Learn more
-            url: project/snap-games/
-        - title: Making Music
-          text: TraceNote lets students learn to trace code intuitively by playing music.
-          feature_icon: musical-note
-          features:
-            - Learn the fundamental CS skill of code tracing.
-            - No numbers or math - just music!
-            - Build an intuitive understanding of code before a class.
-          # Upload image to `assets/media/` and reference the filename here
-          image: cta/tracenote.png
-          button:
-            text: Learn more
-            url: project/tracenote
-        - title: Making a Difference
-          text: In my Machine Learning class, students solved a real-world problem for the NC State Climate Office to identify erroneous instrument readings.
-          feature_icon: globe-alt
-          features:
-            - A real dataset with 8M+ instances and heavy class imbalance.
-            - Students competed on a leaderboard to build the best model.
-            - The winners were hired to build a production model.
-          image: cta/econet.png
-          button:
-            text: Learn more
-            url: project/econet
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: markdown
     id: tech
     content:
       title: Learning Technologies
@@ -214,7 +151,69 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-
+  - block: markdown
+    id: teaching
+    content:
+      title: Teaching Innovations
+      text: >
+        I design curricula and tools that make learning programming engaging and authentic, like the examples below!
+        
+        <div class="big">{{< icon name="chevron-double-down" >}}</div>
+    design:
+      spacing:
+        padding: ["5rem", 0, "3rem", 0]
+  - block: cta-image-paragraph
+    content:
+      items:
+        - title: Making Games
+          text: My "Bounce!" curriculum covers all the basics of programming by making a popular casual game.
+          feature_icon: play
+          features:
+            - Lessons cover loops, variables, functions and conditionals.
+            - Students write almost 100% of the code, so they own their work.
+            - Final game looks polished and professional, in just 4 lessons.
+          # Upload image to `assets/media/` and reference the filename here
+          image: cta/bounce.png
+          button:
+            text: Learn more
+            url: project/bounce/
+        - title: Making Simulations
+          text: I extended a popular novice programming environment with a Physics API allowing for easy simulations.
+          feature_icon: rocket-launch
+          features:
+            - Jump straight into exploration and skip the set-up.
+            - Learn how planets orbit, or make a physics-based game.
+          # Upload image to `assets/media/` and reference the filename here
+          image: cta/physics.png
+          button:
+            text: Learn more
+            url: project/snap-games/
+        - title: Making Music
+          text: TraceNote lets students learn to trace code intuitively by playing music.
+          feature_icon: musical-note
+          features:
+            - Learn the fundamental CS skill of code tracing.
+            - No numbers or math - just music!
+            - Build an intuitive understanding of code before a class.
+          # Upload image to `assets/media/` and reference the filename here
+          image: cta/tracenote.png
+          button:
+            text: Learn more
+            url: project/tracenote
+        - title: Making a Difference
+          text: In my Machine Learning class, students solved a real-world problem for the NC State Climate Office to identify erroneous instrument readings.
+          feature_icon: globe-alt
+          features:
+            - A real dataset with 8M+ instances and heavy class imbalance.
+            - Students competed on a leaderboard to build the best model.
+            - The winners were hired to build a production model.
+          image: cta/econet.png
+          button:
+            text: Learn more
+            url: project/econet
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
   - block: features
     id: expertise
     content:
